@@ -49,6 +49,10 @@ uint32_t MurmurOAAT ( const void * key, int len, uint32_t seed );
 void MurmurHash2_test      ( const void * key, int len, uint32_t seed, void * out );
 void MurmurHash2A_test     ( const void * key, int len, uint32_t seed, void * out );
 
+//-----------
+// Racket's string hash.
+extern "C" void Racket_test( const void* key, int len, uint32_t seed, void * out );
+
 //-----------------------------------------------------------------------------
 // Test harnesses for Murmur1/2
 

@@ -30,6 +30,7 @@ add_library(
   SuperFastHash.cpp
   Types.cpp
   PMurHash.c
+  Racket.c
 )
 
 add_executable(

@@ -1,0 +1,7 @@
+CMakeFiles
+*.a
+cmake*
+CMake*
+!CMakeLists.txt
+CMakeFiles
+SMHasher
